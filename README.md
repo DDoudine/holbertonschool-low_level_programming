@@ -1,4 +1,4 @@
-#man or help:
+#man or help:test
 
 *gcc
 *printf (3)
