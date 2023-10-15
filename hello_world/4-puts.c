@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-fonction main: La fonction main sert de point de départ pour l'exécution du programme
+ *fonction main: La fonction main sert de point de départ pour l'exécution du programme
  */
 int main(void)
 {
