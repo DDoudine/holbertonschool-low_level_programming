@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
- *fonction main: La fonction main sert de point de départ pour l'exécution du programme
+/**
+ * main - Entry
+ * just printing
+ * Return: 0
  */
 int main(void)
 {
-puts(""Programming is like building a multilingual puzzle\n");
-return (0);
+  puts("\"Programming is like building a multilingual puzzle");
+  return (0);
 }
