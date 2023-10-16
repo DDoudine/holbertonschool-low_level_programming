@@ -1,5 +1,4 @@
 #include <stdio.h>
-/* more headers goes there */
 
 /**
  * main-Entry
@@ -8,8 +7,10 @@
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c)
-printf("%c", c);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+putchar ('\n');
+
 return (0);
 }
