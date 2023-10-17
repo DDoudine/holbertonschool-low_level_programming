@@ -14,6 +14,5 @@ int num = 0;
 		putchar('0' + num);
 		putchar(',');
 		}
-	putchar('\n');
 	return (0);
 }
