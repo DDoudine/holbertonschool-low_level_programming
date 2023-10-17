@@ -18,6 +18,6 @@ char letter;
 		{
 		putchar(letter);
 		}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
