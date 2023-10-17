@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    print_alphabet_minuscule();
+    print_alphabet();
     return (0);
 }
