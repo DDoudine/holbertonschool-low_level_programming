@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_minuscule - Entry
- * Function print_alphabet
+ * print_alphabet - Entry
+ *
  * Return: 0
  */
 void print_alphabet(void)
