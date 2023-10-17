@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-void print_alphabet_minuscule(void)
+void print_alphabet(void)
 {
 	int letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
