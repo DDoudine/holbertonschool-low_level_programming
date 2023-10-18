@@ -3,9 +3,9 @@
 
 /**
  * print_last_digit - Entry
- * @n: number
+ * 
  *
- * Return: Number
+ * Return: last
  */
 
 int print_last_digit(int n)
