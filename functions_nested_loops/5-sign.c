@@ -5,7 +5,7 @@
  * print_sign - Entry
  * @n: number
  *
- * Return: Number (Success)
+ * Return: Number
  */
 
 int print_sign(int n)
