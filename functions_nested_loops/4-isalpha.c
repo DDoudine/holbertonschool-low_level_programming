@@ -13,22 +13,16 @@
 
 int _isalpha(int c)
 {
+	int isalpha = 0;
 	if (c >= 'a' && c <= 'z')
 	{
-
-	}
-	else
-	{
-		return (0);
+		isalpha = 1;
 	}
 
 	if (c >= 'A' && c <= 'Z')
         {
-
-        }
-        else
-        {
-                return (0);
+		isalpha = 1;
         }
 
+	return (isalpha);
 }
