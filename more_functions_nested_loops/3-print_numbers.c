@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - Entry
- *
+ * print_numbers - Entry
+ * 
  * Return: 0
  */
 
