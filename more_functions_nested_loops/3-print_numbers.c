@@ -3,7 +3,6 @@
 
 /**
  * print_numbers - Entry
- * 
  * Return: 0
  */
 
