@@ -7,13 +7,18 @@
  */
 void print_square(int size)
 {
-	int x;
+	int column;
+	int line;
 
-	for (x = 0; x < size; x++)
+	/* Affiche autant de ligne que size*/
+	for (line = 0; line < size; line++)
 	{
-		putchar('#');
+		/* Affiche une ligne, avec autant de # que size*/
+		for (column = 0; column < size; column++)
+		{
+			putchar('#');
+		}
+		putchar('\n');
 	}
-
-	putchar('\n');
 }
 
