@@ -2,20 +2,18 @@
 #include "main.h"
 
 /**
- * print_line - Entry
- * @n: Number
- *
+ * print_square - function that prints a square, followed by a new line.
+ * @size: Number
  */
-
-void print_line(int n)
+void print_square(int size)
 {
 	int x;
 
-	for (x = 0; x < n; x++)
-		{
-			putchar('#');
-		}
+	for (x = 0; x < size; x++)
+	{
+		putchar('#');
+	}
 
 	putchar('\n');
-
 }
+
