@@ -10,6 +10,10 @@ void print_square(int size)
 	int column;
 	int line;
 
+	if (size <= 0)
+	{
+		putchar('\n');
+	}
 	/* Affiche autant de ligne que size*/
 	for (line = 0; line < size; line++)
 	{
