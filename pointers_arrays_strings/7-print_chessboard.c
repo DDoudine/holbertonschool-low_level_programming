@@ -4,8 +4,8 @@
 /**
  * print_chessboard - affiche un echequier
  * @a: tableau a deux dimensions representant l'echequier
- * @row: rangees de l'echequier
- * @col: colonnes de l'echequier
+ * rangees de l'echequier
+ * colonnes de l'echequier
  */
 void print_chessboard(char (*a)[8])
 {
