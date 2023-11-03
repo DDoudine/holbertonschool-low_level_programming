@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	printf("%d\n", product);  /*print the product*/
 	}
 	else
-	printf("Error");  /*print an error message for insufficient arguments*/
+	printf("Error\n");  /*print an error message for insufficient arguments*/
 
 	return (0);  /*indicate successful execution*/
 }
