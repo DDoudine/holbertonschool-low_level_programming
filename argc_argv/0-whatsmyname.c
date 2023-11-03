@@ -6,7 +6,7 @@
  * @argc: integer - Number of command-line arguments
  * @argv: pointer to an array of strings - array of command-line arguments
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 
 
