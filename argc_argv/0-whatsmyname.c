@@ -1,4 +1,5 @@
 #include <stdio.h>  /*inclure la bibliotheque standard pour l entree/sortie*/
+#include "main.h"
 
 /**
  * main - prints the program name and command-line arguments
@@ -9,12 +10,12 @@
  */
 
 
-/* declaration de la fonction principale */
+/*declaration de la fonction principale*/
 int main(int argc, char *argv[])
 {
-	int index;  /* declaration d une variable pour la boucle */
+	int index;  /*declaration d une variable pour la boucle*/
 
-	/* boucle pour parcourir les arguments de la ligne de commande */
+	/*boucle pour parcourir les arguments de la ligne de commande*/
 	for (index = 0; index < argc; index++)
 {
 		printf("%s", argv[index]);  /*afficher chaque argument*/
