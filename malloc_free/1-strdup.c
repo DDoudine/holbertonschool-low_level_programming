@@ -34,16 +34,18 @@ char *_strdup(char *str)
 	char *ptr;
 
 	if (str == NULL)  /*check if the input pointer is NULL (empty string)*/
+	{
 		return (NULL);
-
+	}
 	/*use the _strlen function to get the length of the string*/
 	len = _strlen(str);
 	/*dynamically allocate memory for the new string (+1 for the null character)*/
 	ptr = malloc(len + 1);
 
 	if (ptr == NULL)  /*check if memory allocation failed*/
+	{
 		return (NULL);
-
+	}
 	/*copy characters from the original string to the new string*/
 	while (index < len)
 	{
