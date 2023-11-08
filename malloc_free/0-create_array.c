@@ -15,17 +15,19 @@ char *create_array(unsigned int size, char c)
 	unsigned int index;  /*loop counter*/
 
 	if (size == 0)
+	{
 		return (NULL);  /*return NULL if size is 0*/
-
+	}
 	array_ptr = malloc((sizeof(char)) * (size));
 
 	if (array_ptr == NULL)
-		free(array_ptr); /*libére la mémoire*/
+	{
 		return (NULL);  /*return NULL on allocation failure*/
-
+	}
 	for (index = 0; index < size; index++)  /*fill the array with character 'c'*/
+	{
 		array_ptr[index] = c;
-
+	}
 	return (array_ptr);  /*return the pointer to the created and filled array*/
 }
 
