@@ -1,33 +1,34 @@
 #include "main.h"
 
 /**
- * _calloc - alloue de la memoire pour un tableau
- * @nmemb: nombre d éléments dans le tableau
- * @size: taille en octets des éléments
+ * _calloc - alloue de la mémoire pour un tableau et l'initialise à zéro
+ * @nmemb: nombre d'éléments dans le tableau
+ * @size: taille en octets de chaque élément du tableau
  *
- * Return:   pointeur vers la mémoire allouée
+ * Return: Pointeur vers la mémoire allouée, ou NULL en cas d'échec
  */
- 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *ptr;
-	unsigned int index;
+	/* Pointeur pour stocker l'adresse de la mémoire allouée */
+    char *ptr;
+    unsigned int count;
 
-	/* Vérifier si num_elements ou element_size sont nuls */
-	if (nmemb == 0 || size == 0)
-		return (NULL);
+    /* Vérifie si le nombre d'éléments ou la taille des éléments est nul */
+    if (nmemb == 0 || size == 0)
+        return (NULL);
 
-	/* Allouer de la mémoire pour le tableau */
-	ptr = malloc(nmemb * size);
+    /* Allouer de la mémoire pour le tableau */
+    ptr = malloc(nmemb * size);
 
-	/* Vérifier si l'allocation de mémoire a réussi */
-	if (ptr == NULL)
-		return (NULL);
+    /* Vérifie si l'allocation de mémoire a réussi */
+    if (ptr == NULL)
+        return (NULL);
 
-	/* Initialiser tous les éléments du tableau à zéro */
-	for (index = 0; index < (nmemb * size); index++)
-		ptr[index] = 0;
+    /* Initialise tous les éléments du tableau à zéro */
+    for (count = 0; count < (nmemb * size); count++)
+        ptr[count] = 0;
 
-	return (ptr);
+    /* Retourne le pointeur vers la mémoire allouée */
+    return (ptr);
 }
 
