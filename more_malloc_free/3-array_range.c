@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * array_range - creates an array of integers
- * @min: integer
- * @max: integer
+ * array_range - Fonction qui cree un tableau d entiers 
+ * @min: valeur minimale
+ * @max: valeur maximale
  *
- * Return: Pointer
+ * Return: Array range
  */
 int *array_range(int min, int max)
 {
