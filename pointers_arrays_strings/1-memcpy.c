@@ -18,3 +18,4 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		d[i] = s[i];
 	return (dest);
 }
+
