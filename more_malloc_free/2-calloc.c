@@ -26,8 +26,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	/* Initialiser tous les éléments du tableau à zéro */
 	for (index = 0; index < (num_elements * element_size); index++)
+	{
 	allocated_memory[index] = 0;
-
+	}
 	return (allocated_memory);
 }
 
