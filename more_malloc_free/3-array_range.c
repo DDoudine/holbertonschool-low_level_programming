@@ -3,36 +3,28 @@
 #include <stdlib.h>
 
 /**
- * array_range - Crée un tableau d'entiers dans une plage donnée.
- * @min_value: Valeur minimale de la plage.
- * @max_value: Valeur maximale de la plage.
+ * array_range - creates an array of integers
+ * @min: integer
+ * @max: integer
  *
- * Return: Pointeur vers le tableau d'entiers.
+ * Return: Pointer
  */
-int *array_range(int min_value, int max_value)
+int *array_range(int min, int max)
 {
-	/* Pointeur pour stocker l'adresse du tableau d'entiers */
-	nt *result_array;
-	int index;
-	/* Calcul de la taille du tableau */
-	int array_size = max_value - min_value + 1;
+	int *ptr;
+	int i;
+	int sum = max - min + 1;
 
-	/* Vérifie si min_value est supérieur à max_value */
-	if (min_value > max_value)
+	if (min > max)
+		return (NULL);
+	ptr = malloc(sizeof(int) * sum);
+	if (ptr == NULL)
 		return (NULL);
 
-	/* Alloue de la mémoire pour le tableau d'entiers */
-	result_array = malloc(sizeof(int) * array_size);
-
-	/* Vérifie si l'allocation de mémoire a réussi */
-	if (result_array == NULL)
-	return (NULL);
-
-	/* Initialise le tableau avec les valeurs de la plage spécifiée */
-	for (index = 0; index < array_size; index++)
-	result_array[index] = min_value++;
-
-	/* Retourne le tableau d'entiers */
-	return (result_array);
+	for (i = 0; i < sum; i++)
+	{
+	ptr[i] = min++;
+	}
+	return (ptr);
 }
 
