@@ -26,11 +26,11 @@ int *array_range(int min, int max)
 
 	/* Vérifie si l'allocation de mémoire a réussi */
 	if (result_array == NULL)
-	return (NULL);
+		return (NULL);
 
 	/* Initialise le tableau avec les valeurs de la plage spécifiée */
 	for (i = 0; i <= length; i++)
-	result_array[i] = min++;
+		result_array[i] = min++;
 
 	/* Retourne le tableau d'entiers */
 	return (result_array);
