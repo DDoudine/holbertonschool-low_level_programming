@@ -13,7 +13,7 @@ int *array_range(int min, int max)
 	int *array;
 	int i, len;
 
-	/* Vérifie si min est supérieur à max */
+	/* Pointeur pour stocker l'adresse du tableau d'entiers */
 	if (min > max)
 		return (NULL);
 
