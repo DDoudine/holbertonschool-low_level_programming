@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * array_range - Crée un tableau d'entiers dans une plage donnée.
- * @min: Valeur minimale.
- * @max: Valeur maximale.
- * Return: Tableau d'entiers dans la plage spécifiée.
+ * array_range - Crée un tableau d'entiers dans une plage donnée
+ * @min: valeur minimum
+ * @max: valeur maximum
+ * Return: Tableau d'entiers dans la plage spécifiee
  */
 
 int *array_range(int min, int max)
