@@ -20,4 +20,10 @@ Write a function-like macro ABS(x) that computes the absolute value of a number 
 
 4. SUM
 Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+#ifndef SUM_H  /*Si SUM_H n'est pas défini (évite la double inclusion)*/
+#define SUM_H  /*Définit SUM_H pour indiquer que l'en-tête est inclus*/
+
+#define SUM(x, y) ((x) + (y))  /*Macro qui retourne la somme de x et y*/
+
+#endif  /*Fin de la garde d'inclusion*/
 
