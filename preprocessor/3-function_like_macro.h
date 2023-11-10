@@ -4,10 +4,3 @@
 
 #endif
 
-/**
- * Dans cette macro, ABS(x) renvoie la valeur absolue de x.
- * Elle utilise une expression conditionnelle pour vérifier 
- * si x est supérieur ou égal à zéro. 
- * Si c'est le cas, il renvoie simplement x, sinon, il renvoie -x
- */
-
