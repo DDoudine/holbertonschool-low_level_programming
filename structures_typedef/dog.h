@@ -18,14 +18,9 @@ struct dog
 	char *owner;
 };
 
-/* Alias pour faciliter l'utilisation de la structure*/
-typedef struct dog dog_t;
-
 /*Prototypes des fonctions pour travailler avec la structure dog*/
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
-
-#endif
 
