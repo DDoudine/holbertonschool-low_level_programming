@@ -7,7 +7,7 @@
  * @size: taille du tableau
  * @cmp: pointeur vers une fonction de comparaison
  * Return: -1 si l entier n est pas trouve ou si le tableau est absent
- * */
+ */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
