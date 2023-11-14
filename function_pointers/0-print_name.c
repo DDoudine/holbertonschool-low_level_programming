@@ -5,7 +5,7 @@
 /**
  * print_name - fonction qui imprime le nom
  * @name: pointeur vers le nom à imprimer
- * @f: pointeur vers une focntion prenant un pointeur de caractere 
+ * @f: pointeur vers une fonction prenant un pointeur de caractere
  * en tant que parametre
  * Description:
  * cette fonction prend un pointeur vers une chaine de caracteres (`name`)
