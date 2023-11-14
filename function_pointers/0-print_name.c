@@ -18,6 +18,7 @@
 void print_name(char *name, void (*f)(char *))
 {
     /*verifie si le pointeur de fonction n est pas NULL*/
-        if (f != NULL)
-        f(name);
+		if (f != NULL)
+		f(name);
 }
+
