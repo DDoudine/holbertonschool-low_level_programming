@@ -22,7 +22,8 @@ int main() {
 
     // Appel de la fonction à travers le pointeur de fonction
     (*functionPtr)(42);
-
+c
+Copy code
     return 0;
 }
 
