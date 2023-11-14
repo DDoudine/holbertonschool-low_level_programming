@@ -11,13 +11,14 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-    size_t index;
+	size_t index;
 
-    /*verifie si le tableau et le pointeur de fonction sont valides*/
-    if (array != NULL && action != NULL)
-    {
-        /*itere sur chaque element du tableau et execute la fonction sur cet element*/
-        for (index = 0; index < size; index++)
-            action(array[index]);
-    }
+	/*verifie si le tableau et le pointeur de fonction sont valides*/
+	if (array != NULL && action != NULL)
+	{
+		/*itere sur chaque element du tableau et execute la fonction sur cet element*/
+		for (index = 0; index < size; index++)
+			action(array[index]);
+	}
 }
+
