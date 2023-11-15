@@ -11,6 +11,7 @@ Voici un aperçu de l'utilisation des pointeurs de fonction :
 #include <stdio.h>
 
 // Définition d'une fonction
+```bash
 void myFunction(int x) {
     printf("La valeur est : %d\n", x);
 }
@@ -28,9 +29,11 @@ c
 Copy code
     return 0;
 }
+```
 
 ### Utilisation de typedef pour simplifier la syntaxe:
 
+```bash
 #include <stdio.h>
 
 // Définition d'une fonction
@@ -53,9 +56,11 @@ int main() {
 
     return 0;
 }
+```
 
 ### Utilisation avancée avec des pointeurs de fonction comme arguments de fonction:
 
+```bash
 #include <stdio.h>
 
 // Définition de deux fonctions
@@ -81,6 +86,7 @@ int main() {
 
     return 0;
 }
+```
 
 
 Les pointeurs de fonction offrent une flexibilité importante, permettant des implémentations avancées telles que des tableaux de pointeurs de fonction, des pointeurs de fonction comme membres de structures, etc. Ils sont particulièrement utiles dans des situations où le choix de la fonction à exécuter dépend des conditions rencontrées pendant l'exécution du programme.
