@@ -8,10 +8,11 @@ Voici un aperçu de l'utilisation des pointeurs de fonction :
 
 ### Déclaration de pointeur de fonction:
 
+```bash
 #include <stdio.h>
 
 // Définition d'une fonction
-```bash
+
 void myFunction(int x) {
     printf("La valeur est : %d\n", x);
 }
