@@ -1,6 +1,8 @@
 # C - FUNCTIONS, NESTED LOOPS
 
-Les fonctions:
+## Résumé:
+
+### Les fonctions:
 sont des blocs de code autonomes déclarés avec un type de retour, un nom et éventuellement des paramètres. La déclaration comprend un prototype qui spécifie la signature de la fonction. Les fonctions peuvent retourner une valeur (type de retour) et accepter des paramètres. Le corps de la fonction contient le code spécifique. Les fonctions sont appelées avec des arguments, et les prototypes peuvent être utilisés pour déclarer la fonction avant son utilisation. Les fonctions récursives s'appellent elles-mêmes. La bibliothèque standard de C offre des fonctions prédéfinies. Les fonctions améliorent la modularité, la lisibilité et la réutilisabilité du code.
 
 Les boucles imbriquées, se réfèrent à l'utilisation de boucles à l'intérieur d'autres boucles dans un programme informatique. Ce concept est souvent utilisé pour traiter des structures de données multidimensionnelles, comme les tableaux à deux dimensions.
@@ -16,7 +18,8 @@ En résumé, les boucles imbriquées permettent d'itérer de manière plus compl
 * [What Is The Purpose Of A Function Prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
 * [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
 
-# Requirements
+## Requirements:
+
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * All your files should end with a new line
@@ -31,9 +34,9 @@ En résumé, les boucles imbriquées permettent d'itérer de manière plus compl
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 * Don’t forget to push your header file
 
-# TASKS
+## TASKS: 
 
-## 0. _putchar
+### 0. _putchar
 Write a program that prints _putchar, followed by a new line.
 
 * The program should return 0
@@ -44,7 +47,7 @@ mathieu@ubuntu:~/$ ./0-putchar
 _putchar 
 ```
 
-## 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+### 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 Write a function that prints the alphabet, in lowercase, followed by a new line.
 
 * Prototype: void print_alphabet(void);
@@ -71,7 +74,7 @@ mathieu@ubuntu:~/$ ./1-alphabet
 abcdefghijklmnopqrstuvwxyz
 ```
 
-## 2. 10 x alphabet
+### 2. 10 x alphabet
 Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
 * Prototype: void print_alphabet_x10(void);
@@ -107,7 +110,7 @@ abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz 
 ```
 
-## 3. islower
+### 3. islower
 Write a function that checks for lowercase character.
 
 * Prototype: int _islower(int c);
@@ -144,7 +147,7 @@ mathieu@ubuntu:~/$ ./3-islower
 011
 ```
 
-## 4. isalpha
+### 4. isalpha
 Write a function that checks for alphabetic character.
 
 * Prototype: int _isalpha(int c);
@@ -183,7 +186,7 @@ mathieu@ubuntu:~/$ ./4-isalpha
 1110
 ```
 
-## 5. Sign
+### 5. Sign
 Write a function that prints the sign of a number.
 
 * Prototype: int print_sign(int n);
@@ -236,7 +239,7 @@ mathieu@ubuntu:~/$ ./5-sign
 -, / 
 ```
 
-## 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+### 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
 
 * Write a function that computes the absolute value of an integer.
 
@@ -277,7 +280,7 @@ mathieu@ubuntu:~/$ ./6-abs
 98
 ```
 
-## 7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+### 7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 Write a function that prints the last digit of a number.
 
 * Prototype: int print_last_digit(int);
@@ -309,7 +312,7 @@ mathieu@ubuntu:~/$ ./7-last_digit
 8044 
 ```
 
-## 8. I'm federal agent Jack Bauer, and today is the longest day of my life
+### 8. I'm federal agent Jack Bauer, and today is the longest day of my life
 Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
 * Prototype: void jack_bauer(void);
@@ -362,7 +365,7 @@ mathieu@ubuntu:~/$ ./8-24 | wc -l
 1440
 ```
 
-## 9. Learn your times table
+### 9. Learn your times table
 Write a function that prints the 9 times table, starting with 0.
 
 * Prototype: void times_table(void);
@@ -411,7 +414,7 @@ mathieu@ubuntu:~/$ ./9-times_table | tr ' ' . | cat -e
 0,..9,.18,.27,.36,.45,.54,.63,.72,.81$
 ```
 
-## 10. a + b
+### 10. a + b
 Write a function that adds two integers and returns the result.
 
 * Prototype: int add(int, int);
@@ -441,7 +444,7 @@ mathieu@ubuntu:~/$ ./10-add
 98
 ```
 
-## 11. 98 Battery Street, the OG
+### 11. 98 Battery Street, the OG
 Write a function that prints all natural numbers from n to 98, followed by a new line.
 
 * Prototype: void print_to_98(int n);
