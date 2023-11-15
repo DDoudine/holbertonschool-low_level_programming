@@ -1,8 +1,8 @@
 # C - Function pointers
 
-Les pointeurs de fonction en langage C sont des variables qui stockent les adresses des fonctions. Ils permettent de manipuler des fonctions de manière dynamique, c'est-à-dire de choisir la fonction à appeler pendant l'exécution du programme.
+Les pointeurs de fonction sont des variables qui stockent les adresses des fonctions. Ils permettent de manipuler des fonctions de manière dynamique, c'est-à-dire de choisir la fonction à appeler pendant l'exécution du programme.
 
-Voici un aperçu de l'utilisation des pointeurs de fonction en langage C :
+Voici un aperçu de l'utilisation des pointeurs de fonction :
 
 ## Déclaration de pointeur de fonction:
 
