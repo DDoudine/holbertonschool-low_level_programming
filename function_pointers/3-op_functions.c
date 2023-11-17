@@ -15,7 +15,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - soustraction
+ * op_sub - soustraction de 2 nombres
  * @a: entier
  * @b: entier
  * Return : différence de a et b
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multiplication
+ * op_mul - multiplication de 2 nombres
  * @a: entier
  * @b: entier
  * return: produit de a et b
