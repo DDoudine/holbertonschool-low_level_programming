@@ -10,7 +10,7 @@
  */
 
 
-/*declaration de la fonction principale*/
+/*declaration de la fonction principale */
 int main(int argc, char *argv[])
 {
 	int index;  /*declaration d une variable pour la boucle*/
