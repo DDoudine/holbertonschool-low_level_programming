@@ -1,5 +1,7 @@
 # C - Singly linked lists
 
+![Singly linked lists](https://github.com/jasonchampagne/FormationVideo/blob/master/Ressources/C/schema-liste.png?raw=true)
+
 ## Résumé:
 
 création et l'affichage d'une liste chaînée simple. Voici un résumé plus complet et simplifié :
