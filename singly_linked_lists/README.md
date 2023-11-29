@@ -1,6 +1,6 @@
 # C - Singly linked lists
 
-![Singly linked lists](https://github.com/jasonchampagne/FormationVideo/blob/master/Ressources/C/schema-liste.png?raw=true)
+![Singly linked lists](https://user.oc-static.com/upload/2021/12/09/16390600060908_p3c1-3.png)
 
 ## Résumé:
 
