@@ -5,7 +5,7 @@
  * print_list - imprime tous les éléments d'une liste chaînée list_t
  * @h: Pointeur vers le début de la liste
  *
- * Return : le nombre de noeuds
+ * Return: le nombre de noeuds
  */
 
 size_t print_list(const list_t *h)
