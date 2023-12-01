@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * free_list - Libère la mémoire allouée pour une liste chaînée.
