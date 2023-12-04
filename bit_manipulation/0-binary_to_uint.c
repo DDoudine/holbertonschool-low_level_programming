@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 	/*Décrémente i pour pointer le dernier caractère de la chaîne binaire*/
-	i -= 1;
+	index -= 1;
 	/*Parcourt la chaîne de droite à gauche*/
 	for (; index >= 0; index--)
 	{
