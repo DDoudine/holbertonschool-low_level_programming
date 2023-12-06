@@ -2,29 +2,41 @@
 
 ![Singly linked lists](https://user.oc-static.com/upload/2021/12/09/16390600060908_p3c1-3.png)
 
+* [Résumé](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#r%C3%A9sum%C3%A9)
+* [Resources](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#resources)
+* [Requirements](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#requirements)
+* [More Info](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#more-info)
+* [TASKS](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#tasks)
+    * [0. Print list](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#0-print-list)
+    * [1. List length](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#1-list-length)
+    * [2. Add node](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#2-add-node)
+    * [3. Add node at the end](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#3-add-node-at-the-end)
+    * [4. Free list](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/singly_linked_lists#4-free-list)
+
+
 ## Résumé:
 
 création et l'affichage d'une liste chaînée simple. Voici un résumé plus complet et simplifié :
 
 * Création de la structure Node :
- * La structure Node représente un nœud dans la liste chaînée.
- * Chaque nœud contient un champ pour stocker une valeur (data) et un pointeur vers le nœud suivant (next).
+    * La structure Node représente un nœud dans la liste chaînée.
+    * Chaque nœud contient un champ pour stocker une valeur (data) et un pointeur vers le nœud suivant (next).
 
 * Fonction createNode :
- * La fonction createNode alloue dynamiquement un nouveau nœud et initialise ses champs avec une valeur donnée.
- * En cas d'échec de l'allocation mémoire, le programme affiche un message d'erreur.
+    * La fonction createNode alloue dynamiquement un nouveau nœud et initialise ses champs avec une valeur donnée.
+    * En cas d'échec de l'allocation mémoire, le programme affiche un message d'erreur.
 
 * Fonction displayList :
- * La fonction displayList parcourt la liste chaînée à partir du premier nœud et affiche les valeurs de chaque nœud.
- * La séquence est affichée jusqu'à ce qu'on atteigne le dernier nœud, indiqué par un pointeur nul (NULL).
+    * La fonction displayList parcourt la liste chaînée à partir du premier nœud et affiche les valeurs de chaque nœud.
+    * La séquence est affichée jusqu'à ce qu'on atteigne le dernier nœud, indiqué par un pointeur nul (NULL).
 
 * Fonction main :
- * La fonction principale crée trois nœuds (node1, node2, node3) avec des valeurs différentes.
- * Les nœuds sont liés entre eux pour former une liste chaînée.
- * La fonction displayList est appelée pour afficher la séquence de nœuds.
+    * La fonction principale crée trois nœuds (node1, node2, node3) avec des valeurs différentes.
+    * Les nœuds sont liés entre eux pour former une liste chaînée.
+    * La fonction displayList est appelée pour afficher la séquence de nœuds.
 
 * Libération de la mémoire :
- * La mémoire allouée dynamiquement pour chaque nœud est libérée à la fin du programme à l'aide de la fonction free.
+    * La mémoire allouée dynamiquement pour chaque nœud est libérée à la fin du programme à l'aide de la fonction free.
 
 
 En résumé, ce programme démontre comment créer, afficher et libérer une liste chaînée simple en utilisant des structures et des fonctions en langage C. La liste est composée de nœuds liés, chaque nœud contenant une valeur entière.
