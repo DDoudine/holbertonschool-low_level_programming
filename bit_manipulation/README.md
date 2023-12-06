@@ -2,6 +2,17 @@
 
 ![Bit manipulation](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-low_level_programming/232/bitwise.PNG)
 
+* [Résumé](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#r%C3%A9sum%C3%A9)
+* [Resources](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#resources)
+* [Requirements](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#requirements)
+* [TASKS](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#tasks)
+    * [0. 0](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#0-0)
+    * [1. 1](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#1-1)
+    * [2. 10](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#2-10)
+    * [3. 11](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#3-11)
+    * [4. 100](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#4-100)
+    * [5. 101](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/bit_manipulation#5-101)
+
 ## Résumé:
 
 La manipulation de bits est le processus de modification de bits individuels dans une valeur stockée en mémoire. En C, cette technique est réalisée à l'aide d'opérations bit à bit, notamment les opérations ET, OU, XOR, NOT, et les décalages.
