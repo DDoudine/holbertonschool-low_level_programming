@@ -1,5 +1,14 @@
 # C - File I/O
 
+* [Résumé](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#r%C3%A9sum%C3%A9)
+* [Resources](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#resources)
+* [Requirements](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#requirements)
+* [TASKS](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#tasks)
+    * [0. Tread lightly, she is near](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#0-tread-lightly-she-is-near)
+    * [1. Under the snow](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#1-under-the-snow)
+    * [2. Speak gently, she can hear](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#2-speak-gently-she-can-hear)
+    * [3. cp](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/file_io#3-cp)
+
 ## Résumé:
 
 La gestion des entrées/sorties de fichiers (I/O) en C implique la lecture et l'écriture de données vers et depuis les fichiers du système de fichiers de l'ordinateur. Cela se réalise à l'aide de fonctions de la bibliothèque standard telles que ```fopen```, ```fread```, ```fwrite```, ```fprintf```, ```fscanf```, etc.
