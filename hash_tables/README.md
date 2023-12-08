@@ -6,13 +6,13 @@ Tables de hachage en C
 * [Requirements](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#requirements)
 * [More Info](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#more-info)
 * [TASKS](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#tasks)
- * [0. >>> ht = {}](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#0--ht--)
- * [1. djb2](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#1-djb2)
- * [2. key -> index](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#2-key---index)
- * [3. >>> ht['betty'] = 'cool'](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#3--htbetty--cool)
- * [4. >>> ht['betty']](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#4--htbetty)
- * [5. >>> print(ht)](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#5--printht)
- * [6. >>> del ht](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#6--del-ht)
+	* [0. >>> ht = {}](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#0--ht--)
+	* [1. djb2](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#1-djb2)
+	* [2. key -> index](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#2-key---index)
+	* [3. >>> ht['betty'] = 'cool'](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#3--htbetty--cool)
+	* [4. >>> ht['betty']](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#4--htbetty)
+	* [5. >>> print(ht)](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#5--printht)
+	* [6. >>> del ht](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#6--del-ht)
 
 
 ## Résumé:
