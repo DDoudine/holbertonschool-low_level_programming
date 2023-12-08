@@ -1,10 +1,22 @@
 # C - Hash tables
 Tables de hachage en C
 
-* []()
+* [Résumé](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#r%C3%A9sum%C3%A9)
+* [Resources](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#resources)
+* [Requirements](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#requirements)
+* [More Info](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#more-info)
+* [TASKS](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#tasks)
+* [0. >>> ht = {}](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#0--ht--)
+* [1. djb2](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#1-djb2)
+* [2. key -> index](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#2-key---index)
+* [3. >>> ht['betty'] = 'cool'](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#3--htbetty--cool)
+* [4. >>> ht['betty']](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#4--htbetty)
+* [5. >>> print(ht)](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#5--printht)
+* [6. >>> del ht](https://github.com/amandinekemp/holbertonschool-low_level_programming/tree/main/hash_tables#6--del-ht)
+
 
 ## Résumé:
-Tables de hachage en C
+
 Les tables de hachage sont des structures de données qui utilisent une fonction de hachage pour stocker et récupérer efficacement des données. Elles sont définies par un tableau de pointeurs vers des listes chaînées, où chaque liste représente des données partageant la même valeur de hachage. Une fonction de hachage attribue un indice dans le tableau en fonction de la clé. Pour ajouter des données, une nouvelle entrée est créée et ajoutée à la liste chaînée correspondante. Pour récupérer des données, on calcule l'indice et on recherche dans la liste chaînée. Les tables de hachage offrent une récupération efficace avec une complexité moyenne de O(1), mais les collisions et le choix de la fonction de hachage peuvent influencer les performances.
 
 
@@ -436,4 +448,3 @@ julien@ubuntu:~/Hash tables$ valgrind ./g
 ==6621== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/Hash tables$
  ```
- 
