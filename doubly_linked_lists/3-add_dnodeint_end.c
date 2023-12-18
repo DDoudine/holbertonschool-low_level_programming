@@ -5,11 +5,12 @@
 * @head: Un double pointeur vers la tête de la liste.
 * @n: L'entier que le nouveau nœud doit contenir.
 *
-* Retour: Le nouveau nœud.
+* Return: Le nouveau nœud.
 */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-	dlistint_t *newNode, *tmp;
+	dlistint_t *newNode, *tmp = *head;
+	int copy = n;
 
 	/* Allouer de la mémoire pour le nouveau nœud */
 	newNode = malloc(sizeof(dlistint_t));
@@ -17,11 +18,8 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		return (NULL);
 
 	/* Initialiser le nouveau nœud */
-	newNode->n = n;
+	newNode->n = copy;
 	newNode->next = NULL;
-
-	/* Stocker la tête de la liste dans une variable temporaire */
-	tmp = *head;
 
 	/* Si la liste est vide, le nouveau nœud devient la tête */
 	if (*head == NULL)
@@ -39,5 +37,5 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	newNode->prev = tmp;
 
 	/* Retourner le nouveau nœud */
-	return (newNode);if (newNode == NULL)
+	return (newNode);
 }
