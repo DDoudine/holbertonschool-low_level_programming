@@ -1,0 +1,9 @@
+/*
+* La complexité temporelle dans le pire des cas pour une recherche
+* linéaire dans un tableau de taille n.
+* Signifie que dans le pire des cas, l'algorithme pourrait avoir
+* besoin de vérifier chaque élément du tableau une fois pour trouver
+* la valeur recherchée.
+*/
+
+O(n)
