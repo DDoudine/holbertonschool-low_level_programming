@@ -44,7 +44,7 @@ Write a function that allocates memory using malloc.
 * if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
 
 ```bash
-mathieu@ubuntu:~/0x0b. more malloc, free$ cat 0-main.c
+amandine@ubuntu:~/0x0b. more malloc, free$ cat 0-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -78,13 +78,13 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-malloc_checked.c -o a
-mathieu@ubuntu:~/0x0b. more malloc, free$ ./a 
+amandine@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-malloc_checked.c -o a
+amandine@ubuntu:~/0x0b. more malloc, free$ ./a 
 0x1e39010
 0x1e39830
 0x7f31f6c19010
 
-mathieu@ubuntu:~/0x0b. more malloc, free$ echo $?
+amandine@ubuntu:~/0x0b. more malloc, free$ echo $?
 98
 ```
 
@@ -98,7 +98,7 @@ Write a function that concatenates two strings.
 * if NULL is passed, treat it as an empty string
 
 ```bash
-mathieu@ubuntu:~/0x0b. more malloc, free$ cat 1-main.c
+amandine@ubuntu:~/0x0b. more malloc, free$ cat 1-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -119,8 +119,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-string_nconcat.c -o 1-string_nconcat
-mathieu@ubuntu:~/0x0b. more malloc, free$ ./1-string_nconcat
+amandine@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-string_nconcat.c -o 1-string_nconcat
+amandine@ubuntu:~/0x0b. more malloc, free$ ./1-string_nconcat
 Best School
 ```
 
@@ -135,7 +135,7 @@ Write a function that allocates memory for an array, using malloc.
 FYI: The standard library provides a different function: calloc. Run man calloc to learn more.
 
 ```bash
-mathieu@ubuntu:~/0x0b. more malloc, free$ cat 2-main.c
+amandine@ubuntu:~/0x0b. more malloc, free$ cat 2-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -188,8 +188,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-calloc.c -o 2-calloc
-mathieu@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
+amandine@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-calloc.c -o 2-calloc
+amandine@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 0x42 0x65 0x73 0x74 0x20 0x53 0x63 0x68 0x6f 0x6f
 0x6c 0x21 0x20 0x3a 0x29 0x0a 0x00 0x00 0x00 0x00
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
@@ -212,7 +212,7 @@ Write a function that creates an array of integers.
 * If malloc fails, return NULL
 
 ```bash
-mathieu@ubuntu:~/0x0b. more malloc, free$ cat 3-main.c
+amandine@ubuntu:~/0x0b. more malloc, free$ cat 3-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -262,8 +262,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o 3-array_range
-mathieu@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
+amandine@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o 3-array_range
+amandine@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
 0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09
 0x0a
 ```

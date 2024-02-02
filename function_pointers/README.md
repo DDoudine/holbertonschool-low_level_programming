@@ -124,7 +124,7 @@ Write a function that prints a name.
 * Prototype: void print_name(char *name, void (*f)(char *));
 
 ```bash
-mathieu@ubuntu:~/0x0e. Function pointers$ cat 0-main.c
+amandine@ubuntu:~/0x0e. Function pointers$ cat 0-main.c
 
 #include <stdio.h>
 #include "function_pointers.h"
@@ -179,8 +179,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_name.c -o a
-mathieu@ubuntu:~/0x0e. Function pointers$ ./a 
+amandine@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_name.c -o a
+amandine@ubuntu:~/0x0e. Function pointers$ ./a 
 Hello, my name is Bob
 Hello, my uppercase name is BOB DYLAN
 ```
@@ -194,7 +194,7 @@ Write a function that executes a function given as a parameter on each element o
 * and action is a pointer to the function you need to use
 
 ```bash
-mathieu@ubuntu:~/0x0e. Function pointers$ cat 1-main.c
+amandine@ubuntu:~/0x0e. Function pointers$ cat 1-main.c
 
 #include <stdio.h>
 #include "function_pointers.h"
@@ -235,8 +235,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-array_iterator.c -o b
-mathieu@ubuntu:~/0x0e. Function pointers$ ./b 
+amandine@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-array_iterator.c -o b
+amandine@ubuntu:~/0x0e. Function pointers$ ./b 
 0
 98
 402
@@ -261,7 +261,7 @@ Write a function that searches for an integer.
 * If size <= 0, return -1
 
 ```bash
-mathieu@ubuntu:~/0x0e. Function pointers$ cat 2-main.c
+amandine@ubuntu:~/0x0e. Function pointers$ cat 2-main.c
 
 #include <stdio.h>
 #include "function_pointers.h"
@@ -319,8 +319,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int_index.c -o c
-mathieu@ubuntu:~/0x0e. Function pointers$ ./c 
+amandine@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int_index.c -o c
+amandine@ubuntu:~/0x0e. Function pointers$ ./c 
 2
 1
 2
@@ -414,26 +414,26 @@ This file should contain your main function only.
 * You are allowed to use a maximum of 3 if statements
 
 ```bash
-mathieu@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op_functions.c 3-get_op_func.c -o calc
+amandine@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op_functions.c 3-get_op_func.c -o calc
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1 + 1
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1 + 1
 2
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 97 + 1
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 97 + 1
 98
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1024 / 10
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1024 / 10
 102
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '*' 98
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '*' 98
 100352
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '\*' 98
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '\*' 98
 Error
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1024 - 98
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1024 - 98
 926
 
-mathieu@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '%' 98
+amandine@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '%' 98
 44
 ```

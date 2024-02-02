@@ -38,9 +38,9 @@ Requirements:
 * variables: none
 
 ```bash
-mathieu@ubuntu:~/Makefiles$ make -f 0-Makefile 
+amandine@ubuntu:~/Makefiles$ make -f 0-Makefile 
 gcc main.c school.c -o school
-mathieu@ubuntu:~/Makefiles$ ./school 
+amandine@ubuntu:~/Makefiles$ ./school 
 
 j#0000000000000000000000000000000000000
 j#000000000000000000@Q**g00000000000000
@@ -80,10 +80,10 @@ Requirements:
 * * SRC: the .c files
 
 ```bash
-mathieu@ubuntu:~/Makefiles$ make -f 1-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 1-Makefile
 gcc main.c school.c -o school
 
-mathieu@ubuntu:~/Makefiles$ make -f 1-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 1-Makefile
 gcc main.c school.c -o school
 ```
 
@@ -104,17 +104,17 @@ Requirements:
 * You are not allowed to have a list of all the .o files
 
 ```bash
-mathieu@ubuntu:~/Makefiles$ make -f 2-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 2-Makefile
 gcc    -c -o main.o main.c
 gcc    -c -o school.o school.c
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ make -f 2-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 2-Makefile
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ echo "/* School */" >> main.c
+amandine@ubuntu:~/Makefiles$ echo "/* School */" >> main.c
 
-mathieu@ubuntu:~/Makefiles$ make -f 2-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 2-Makefile
 gcc    -c -o main.o main.c
 gcc main.o school.o -o school
 ```
@@ -140,7 +140,7 @@ Requirements:
 * You are not allowed to have a list of all the .o files
 
 ```bash
-mathieu@ubuntu:~//Makefiles$ ls -1
+amandine@ubuntu:~//Makefiles$ ls -1
 0-Makefile
 1-Makefile
 2-Makefile
@@ -150,15 +150,15 @@ main.c
 main.c~
 m.h
 
-mathieu@ubuntu:~/Makefiles$ make -f 3-Makefile
+amandine@ubuntu:~/Makefiles$ make -f 3-Makefile
 gcc    -c -o main.o main.c
 gcc    -c -o school.o school.c
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ make all -f 3-Makefile
+amandine@ubuntu:~/Makefiles$ make all -f 3-Makefile
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ ls -1
+amandine@ubuntu:~/Makefiles$ ls -1
 0-Makefile
 1-Makefile
 2-Makefile
@@ -171,25 +171,25 @@ main.c~
 main.o
 m.h
 
-mathieu@ubuntu:~/Makefiles$ make clean -f 3-Makefile 
+amandine@ubuntu:~/Makefiles$ make clean -f 3-Makefile 
 rm -f *~ school
 
-mathieu@ubuntu:~/Makefiles$ make oclean -f 3-Makefile 
+amandine@ubuntu:~/Makefiles$ make oclean -f 3-Makefile 
 rm -f main.o school.o
 
-mathieu@ubuntu:~/Makefiles$ make fclean -f 3-Makefile 
+amandine@ubuntu:~/Makefiles$ make fclean -f 3-Makefile 
 rm -f *~ school
 rm -f main.o school.o
 
-mathieu@ubuntu:~/Makefiles$ make all -f 3-Makefile
+amandine@ubuntu:~/Makefiles$ make all -f 3-Makefile
 gcc    -c -o main.o main.c
 gcc    -c -o school.o school.c
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ make all -f 3-Makefile
+amandine@ubuntu:~/Makefiles$ make all -f 3-Makefile
 gcc main.o school.o -o school
 
-mathieu@ubuntu:~/Makefiles$ make re -f 3-Makefile
+amandine@ubuntu:~/Makefiles$ make re -f 3-Makefile
 rm -f main.o school.o
 gcc    -c -o main.o main.c
 gcc    -c -o school.o school.c
@@ -219,7 +219,7 @@ Requirements:
 * You are not allowed to have a list of all the .o files
 
 ```bash
-mathieu@ubuntu:~/Makefiles$ make all -f 4-Makefile
+amandine@ubuntu:~/Makefiles$ make all -f 4-Makefile
 gcc -Wall -Werror -Wextra -pedantic   -c -o main.o main.c
 gcc -Wall -Werror -Wextra -pedantic   -c -o school.o school.c
 gcc main.o school.o -o school

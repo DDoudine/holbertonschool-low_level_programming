@@ -41,7 +41,7 @@
 Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
 
 ```bash
-mathieu@ubuntu:~/0x0c. macro, structures$ cat 0-main.c
+amandine@ubuntu:~/0x0c. macro, structures$ cat 0-main.c
 
 #include "0-object_like_macro.h"
 #include "0-object_like_macro.h"
@@ -61,8 +61,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
-mathieu@ubuntu:~/0x0c. macro, structures$ ./a 
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
+amandine@ubuntu:~/0x0c. macro, structures$ ./a 
 1122
 ```
 
@@ -70,7 +70,7 @@ mathieu@ubuntu:~/0x0c. macro, structures$ ./a
 Create a header file that defines a macro named PI as an abbreviation for the token 3.14159265359
 
 ```bash
-mathieu@ubuntu:~/0x0c. macro, structures$ cat 1-main.c
+amandine@ubuntu:~/0x0c. macro, structures$ cat 1-main.c
 
 #include "1-pi.h"
 #include "1-pi.h"
@@ -92,8 +92,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c -o b
-mathieu@ubuntu:~/0x0c. macro, structures$ ./b
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c -o b
+amandine@ubuntu:~/0x0c. macro, structures$ ./b
 30171.855
 ```
 
@@ -103,12 +103,12 @@ Write a program that prints the name of the file it was compiled from, followed 
 * You are allowed to use the standard library
 
 ```bash
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c -o c
-mathieu@ubuntu:~/0x0c. macro, structures$ ./c 
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c -o c
+amandine@ubuntu:~/0x0c. macro, structures$ ./c 
 2-main.c
-mathieu@ubuntu:~/0x0c. macro, structures$ cp 2-main.c 02-main.c
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 02-main.c -o cc
-mathieu@ubuntu:~/0x0c. macro, structures$ ./cc
+amandine@ubuntu:~/0x0c. macro, structures$ cp 2-main.c 02-main.c
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 02-main.c -o cc
+amandine@ubuntu:~/0x0c. macro, structures$ ./cc
 02-main.c
 ```
 
@@ -116,7 +116,7 @@ mathieu@ubuntu:~/0x0c. macro, structures$ ./cc
 Write a function-like macro ABS(x) that computes the absolute value of a number x.
 
 ```bash
-mathieu@ubuntu:~/0x0c. macro, structures$ cat 3-main.c
+amandine@ubuntu:~/0x0c. macro, structures$ cat 3-main.c
 
 #include <stdio.h>
 #include "3-function_like_macro.h"
@@ -138,8 +138,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
-mathieu@ubuntu:~/0x0c. macro, structures$ ./d 
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+amandine@ubuntu:~/0x0c. macro, structures$ ./d 
 980, 980
 ```
 
@@ -154,7 +154,7 @@ mathieu@ubuntu:~/0x0c. macro, structures$ ./d
 Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
 
 ```bash
-mathieu@ubuntu:~/0x0c. macro, structures$ cat 4-main.c
+amandine@ubuntu:~/0x0c. macro, structures$ cat 4-main.c
 
 #include <stdio.h>
 #include "4-sum.h"
@@ -174,8 +174,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c -o e
-mathieu@ubuntu:~/0x0c. macro, structures$ ./e 
+amandine@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c -o e
+amandine@ubuntu:~/0x0c. macro, structures$ ./e 
 1122
 ```
 

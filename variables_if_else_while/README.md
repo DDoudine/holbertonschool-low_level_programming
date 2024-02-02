@@ -79,29 +79,29 @@ The number, followed by
 followed by a new line
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 -520693284 is negative
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 -973398895 is negative
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 -199220452 is negative
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative
+amandine@ubuntu:~/$ ./0-positive_or_negative
 561319348 is positive
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 561319348 is positive
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 266853958 is positive
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative 
+amandine@ubuntu:~/$ ./0-positive_or_negative 
 -48147767 is negative
 
-mathieu@ubuntu:~/$ ./0-positive_or_negative
+amandine@ubuntu:~/$ ./0-positive_or_negative
 0 is zero
 ```
 
@@ -122,44 +122,44 @@ the string is, followed by
 followed by a new line
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 629438752 is 2 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -748255693 is -3 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -1052791662 is -2 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -284805734 is -4 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -284805734 is -4 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 491506926 is 6 and is greater than 5
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 954249937 is 7 and is greater than 5
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 652334952 is 2 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -729688197 is -7 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of -729688197 is -7 and is less than 6 and not 0
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 45528266 is 6 and is greater than 5
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 45528266 is 6 and is greater than 5
 
-mathieu@ubuntu:~/$ ./1-last_digit 
+amandine@ubuntu:~/$ ./1-last_digit 
 Last digit of 809065140 is 0 and is 0
 ```
 
@@ -172,8 +172,8 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * You can only use putchar twice in your code
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
-mathieu@ubuntu:~/$ ./2-print_alphabet
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
+amandine@ubuntu:~/$ ./2-print_alphabet
 
 abcdefghijklmnopqrstuvwxyz
 ```
@@ -187,8 +187,8 @@ Write a program that prints the alphabet in lowercase, and then in uppercase, fo
 * You can only use putchar three times in your code
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
-mathieu@ubuntu:~/$ ./3-print_alphabets | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
+amandine@ubuntu:~/$ ./3-print_alphabets | cat -e
 
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
 ```
@@ -203,8 +203,8 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * You can only use putchar twice in your code
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
-mathieu@ubuntu:~/$ ./4-print_alphabt
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
+amandine@ubuntu:~/$ ./4-print_alphabt
 
 abcdfghijklmnoprstuvwxyz
 ```
@@ -216,8 +216,8 @@ Write a program that prints all single digit numbers of base 10 starting from 0,
 * All your code should be in the main function
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
-mathieu@ubuntu:~/$ ./5-print_numbers 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
+amandine@ubuntu:~/$ ./5-print_numbers 
 
 0123456789
 ```
@@ -232,8 +232,8 @@ Write a program that prints all single digit numbers of base 10 starting from 0,
 * All your code should be in the main function
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
-mathieu@ubuntu:~/$ ./6-print_numberz 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
+amandine@ubuntu:~/$ ./6-print_numberz 
 
 0123456789
 ```
@@ -247,8 +247,8 @@ Write a program that prints the lowercase alphabet in reverse, followed by a new
 * You can only use putchar twice in your code
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
-mathieu@ubuntu:~/$ ./7-print_tebahpla
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
+amandine@ubuntu:~/$ ./7-print_tebahpla
 
 zyxwvutsrqponmlkjihgfedcba
 ```
@@ -262,8 +262,8 @@ Write a program that prints all the numbers of base 16 in lowercase, followed by
 * You can only use putchar three times in your code
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
-mathieu@ubuntu:~/$ ./8-print_base16
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+amandine@ubuntu:~/$ ./8-print_base16
 
 0123456789abcdef
 ```
@@ -280,8 +280,8 @@ Write a program that prints all possible combinations of single-digit numbers.
 * You are not allowed to use any variable of type char
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
-mathieu@ubuntu:~/$ ./9-print_comb | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
+amandine@ubuntu:~/$ ./9-print_comb | cat -e
 
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
 ```

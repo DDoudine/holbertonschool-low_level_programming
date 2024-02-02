@@ -41,8 +41,8 @@ Write a program that prints _putchar, followed by a new line.
 
 * The program should return 0
 ```bash
-mathieu@ubuntu:~/$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
-mathieu@ubuntu:~/$ ./0-putchar 
+amandine@ubuntu:~/$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
+amandine@ubuntu:~/$ ./0-putchar 
 
 _putchar 
 ```
@@ -53,7 +53,7 @@ Write a function that prints the alphabet, in lowercase, followed by a new line.
 * Prototype: void print_alphabet(void);
 * You can only use _putchar twice in your code
 ```bash
-mathieu@ubuntu:~/$ cat 1-main.c
+amandine@ubuntu:~/$ cat 1-main.c
 
 #include "main.h"
 
@@ -68,8 +68,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet
-mathieu@ubuntu:~/$ ./1-alphabet
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-alphabet.c -o 1-alphabet
+amandine@ubuntu:~/$ ./1-alphabet
 
 abcdefghijklmnopqrstuvwxyz
 ```
@@ -80,7 +80,7 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
 * Prototype: void print_alphabet_x10(void);
 * You can only use _putchar twice in your code
 ```bash
-mathieu@ubuntu:~/$ cat 2-main.c
+amandine@ubuntu:~/$ cat 2-main.c
 
 #include "main.h"
 
@@ -95,8 +95,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10
-mathieu@ubuntu:~/$ ./2-alphabet_x10 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10
+amandine@ubuntu:~/$ ./2-alphabet_x10 
 
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
@@ -118,7 +118,7 @@ Write a function that checks for lowercase character.
 * Returns 0 otherwise
 FYI: The standard library provides a similar function: islower. Run man islower to learn more.
 ```bash
-mathieu@ubuntu:~/$ cat 3-main.c 
+amandine@ubuntu:~/$ cat 3-main.c 
 
 #include "main.h"
 
@@ -141,8 +141,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
-mathieu@ubuntu:~/$ ./3-islower 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
+amandine@ubuntu:~/$ ./3-islower 
 
 011
 ```
@@ -155,7 +155,7 @@ Write a function that checks for alphabetic character.
 * Returns 0 otherwise
 FYI: The standard library provides a similar function: isalpha. Run man isalpha to learn more.
 ```bash
-mathieu@ubuntu:~/$ cat 4-main.c 
+amandine@ubuntu:~/$ cat 4-main.c 
 
 #include "main.h"
 
@@ -180,8 +180,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
-mathieu@ubuntu:~/$ ./4-isalpha 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
+amandine@ubuntu:~/$ ./4-isalpha 
 
 1110
 ```
@@ -194,7 +194,7 @@ Write a function that prints the sign of a number.
 * Returns 0 and prints 0 if n is zero
 * Returns -1 and prints - if n is less than zero
 ```bash
-mathieu@ubuntu:~/$ cat 5-main.c
+amandine@ubuntu:~/$ cat 5-main.c
 
 #include "main.h"
 
@@ -230,8 +230,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign
-mathieu@ubuntu:~/$ ./5-sign 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign
+amandine@ubuntu:~/$ ./5-sign 
 
 +, 1
 0, 0
@@ -246,7 +246,7 @@ mathieu@ubuntu:~/$ ./5-sign
 Prototype: int _abs(int);
 FYI: The standard library provides a similar function: abs. Run man abs to learn more.
 ```bash
-mathieu@ubuntu:~/$ cat 6-main.c
+amandine@ubuntu:~/$ cat 6-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -271,8 +271,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
-mathieu@ubuntu:~/$ ./6-abs
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
+amandine@ubuntu:~/$ ./6-abs
 
 1
 0
@@ -286,7 +286,7 @@ Write a function that prints the last digit of a number.
 * Prototype: int print_last_digit(int);
 * Returns the value of the last digit
 ```bash
-mathieu@ubuntu:~/$ cat 7-main.c
+amandine@ubuntu:~/$ cat 7-main.c
 
 #include "main.h"
 
@@ -306,8 +306,8 @@ int main(void)
     _putchar('\n');
     return (0);
 }
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit
-mathieu@ubuntu:~/$ ./7-last_digit 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit
+amandine@ubuntu:~/$ ./7-last_digit 
 
 8044 
 ```
@@ -318,7 +318,7 @@ Write a function that prints every minute of the day of Jack Bauer, starting fro
 * Prototype: void jack_bauer(void);
 * You can listen to this soundtrack while coding :)
 ```bash
-mathieu@ubuntu:~/$ cat 8-main.c
+amandine@ubuntu:~/$ cat 8-main.c
 
 #include "main.h"
 
@@ -333,8 +333,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-24_hours.c -o 8-24
-mathieu@ubuntu:~/$ ./8-24 | head
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-24_hours.c -o 8-24
+amandine@ubuntu:~/$ ./8-24 | head
 
 00:00
 00:01
@@ -347,7 +347,7 @@ mathieu@ubuntu:~/$ ./8-24 | head
 00:08
 00:09
 
-mathieu@ubuntu:~/$ ./8-24 | tail
+amandine@ubuntu:~/$ ./8-24 | tail
 
 23:50
 23:51
@@ -360,7 +360,7 @@ mathieu@ubuntu:~/$ ./8-24 | tail
 23:58
 23:59
 
-mathieu@ubuntu:~/$ ./8-24 | wc -l
+amandine@ubuntu:~/$ ./8-24 | wc -l
 
 1440
 ```
@@ -371,7 +371,7 @@ Write a function that prints the 9 times table, starting with 0.
 * Prototype: void times_table(void);
 * Format: see example
 ```bash
-mathieu@ubuntu:~/$ cat 9-main.c
+amandine@ubuntu:~/$ cat 9-main.c
 
 #include "main.h"
 
@@ -386,8 +386,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table
-mathieu@ubuntu:~/$ ./9-times_table | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table
+amandine@ubuntu:~/$ ./9-times_table | cat -e
 
 0,  0,  0,  0,  0,  0,  0,  0,  0,  0$
 0,  1,  2,  3,  4,  5,  6,  7,  8,  9$
@@ -400,7 +400,7 @@ mathieu@ubuntu:~/$ ./9-times_table | cat -e
 0,  8, 16, 24, 32, 40, 48, 56, 64, 72$
 0,  9, 18, 27, 36, 45, 54, 63, 72, 81$
 
-mathieu@ubuntu:~/$ ./9-times_table | tr ' ' . | cat -e
+amandine@ubuntu:~/$ ./9-times_table | tr ' ' . | cat -e
 
 0,..0,..0,..0,..0,..0,..0,..0,..0,..0$
 0,..1,..2,..3,..4,..5,..6,..7,..8,..9$
@@ -419,7 +419,7 @@ Write a function that adds two integers and returns the result.
 
 * Prototype: int add(int, int);
 ```bash
-mathieu@ubuntu:~/$ cat 10-main.c
+amandine@ubuntu:~/$ cat 10-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -438,8 +438,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
-mathieu@ubuntu:~/$ ./10-add 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
+amandine@ubuntu:~/$ ./10-add 
 
 98
 ```
@@ -454,7 +454,7 @@ Write a function that prints all natural numbers from n to 98, followed by a new
 * The last printed number should be 98
 * You are allowed to use the standard library
 ```bash
-mathieu@ubuntu:~/$ cat 11-main.c
+amandine@ubuntu:~/$ cat 11-main.c
 
 #include "main.h"
 
@@ -473,8 +473,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 11-main.c 11-print_to_98.c -o 11-98
-mathieu@ubuntu:~/$ ./11-98 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 11-main.c 11-print_to_98.c -o 11-98
+amandine@ubuntu:~/$ ./11-98 
 
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
 98

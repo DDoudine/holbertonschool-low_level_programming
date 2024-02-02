@@ -52,7 +52,7 @@ Write a function that takes a pointer to an int as parameter and updates the val
 * Prototype: void reset_to_98(int *n);
 
 ```bash
-mathieu@ubuntu:~/$ cat 0-main.c
+amandine@ubuntu:~/$ cat 0-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -73,8 +73,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
-mathieu@ubuntu:~/$ ./0-98 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
+amandine@ubuntu:~/$ ./0-98 
 n=402
 n=98
 ```
@@ -85,7 +85,7 @@ Write a function that swaps the values of two integers.
 * Prototype: void swap_int(int *a, int *b);
 
 ```bash
-mathieu@ubuntu:~/$ cat 1-main.c
+amandine@ubuntu:~/$ cat 1-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -108,8 +108,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
-mathieu@ubuntu:~/$ ./1-swap 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
+amandine@ubuntu:~/$ ./1-swap 
 a=98, b=42
 a=42, b=98
 ```
@@ -121,7 +121,7 @@ Write a function that returns the length of a string.
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 2-main.c
+amandine@ubuntu:~/$ cat 2-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -142,8 +142,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
-mathieu@ubuntu:~/$ ./2-strlen 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
+amandine@ubuntu:~/$ ./2-strlen 
 16
 ```
 
@@ -154,7 +154,7 @@ Write a function that prints a string, followed by a new line, to stdout.
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 3-main.c
+amandine@ubuntu:~/$ cat 3-main.c
 
 #include "main.h"
 
@@ -172,8 +172,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
-mathieu@ubuntu:~/$ ./3-puts 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
+amandine@ubuntu:~/$ ./3-puts 
 I do not fear computers. I fear the lack of them - Isaac Asimov
 ```
 
@@ -183,7 +183,7 @@ Write a function that prints a string, in reverse, followed by a new line.
 * Prototype: void print_rev(char *s);
 
 ```bash
-mathieu@ubuntu:~/$ cat 4-main.c
+amandine@ubuntu:~/$ cat 4-main.c
 
 #include "main.h"
 
@@ -201,8 +201,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
-mathieu@ubuntu:~/$ ./4-print_rev 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
+amandine@ubuntu:~/$ ./4-print_rev 
 vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
 ```
 
@@ -212,7 +212,7 @@ Write a function that reverses a string.
 * Prototype: void rev_string(char *s);
 
 ```bash
-mathieu@ubuntu:~/$ cat 5-main.c
+amandine@ubuntu:~/$ cat 5-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -232,8 +232,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
-mathieu@ubuntu:~/$ ./5-rev_string 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
+amandine@ubuntu:~/$ ./5-rev_string 
 My School
 loohcS yM
 ```
@@ -244,7 +244,7 @@ Write a function that prints every other character of a string, starting with th
 * Prototype: void puts2(char *str);
 
 ```bash
-mathieu@ubuntu:~/$ cat 6-main.c
+amandine@ubuntu:~/$ cat 6-main.c
 
 #include "main.h"
 
@@ -262,8 +262,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2
-mathieu@ubuntu:~/$ ./6-puts2 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-puts2.c -o 6-puts2
+amandine@ubuntu:~/$ ./6-puts2 
 02468
 ```
 
@@ -275,7 +275,7 @@ The function should print the second half of the string
 If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
 ```bash
-mathieu@ubuntu:~/$ cat 7-main.c
+amandine@ubuntu:~/$ cat 7-main.c
 
 #include "main.h"
 
@@ -293,8 +293,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
-mathieu@ubuntu:~/$ ./7-puts_half 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
+amandine@ubuntu:~/$ ./7-puts_half 
 56789
 ```
 
@@ -308,7 +308,7 @@ Write a function that prints n elements of an array of integers, followed by a n
 * You are allowed to use printf
 
 ```bash
-mathieu@ubuntu:~/$ cat 8-main.c
+amandine@ubuntu:~/$ cat 8-main.c
 
 #include "main.h"
 
@@ -330,8 +330,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
-mathieu@ubuntu:~/$ ./8-print_array 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
+amandine@ubuntu:~/$ ./8-print_array 
 98, 402, -198, 298, -1024
 ```
 
@@ -343,7 +343,7 @@ Write a function that copies the string pointed to by src, including the termina
 FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 9-main.c
+amandine@ubuntu:~/$ cat 9-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -364,8 +364,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
-mathieu@ubuntu:~/$ ./9-strcpy 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
+amandine@ubuntu:~/$ ./9-strcpy 
 First, solve the problem. Then, write the code
 First, solve the problem. Then, write the code
 ```
@@ -385,7 +385,7 @@ Write a function that convert a string to an integer.
 FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 100-main.c
+amandine@ubuntu:~/$ cat 100-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -418,8 +418,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi
-mathieu@ubuntu:~/$ ./100-atoi 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fsanitize=signed-integer-overflow 100-main.c 100-atoi.c -o 100-atoi
+amandine@ubuntu:~/$ ./100-atoi 
 98
 -402
 -98

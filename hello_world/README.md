@@ -66,7 +66,7 @@ Write a script that runs a C file through the preprocessor and save the result i
 * The output should be saved in the file c
 
 ```bash
-mathieu@ubuntu:~/c/$ cat main.c 
+amandine@ubuntu:~/c/$ cat main.c 
 #include <stdio.h>
 
 /**
@@ -79,9 +79,9 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/c/$ export CFILE=main.c
-mathieu@ubuntu:~/c/$ ./0-preprocessor 
-mathieu@ubuntu:~/c/$ tail c
+amandine@ubuntu:~/c/$ export CFILE=main.c
+amandine@ubuntu:~/c/$ ./0-preprocessor 
+amandine@ubuntu:~/c/$ tail c
 # 942 "/usr/include/stdio.h" 3 4
 
 # 2 "main.c" 2
@@ -102,8 +102,8 @@ Write a script that compiles a C file but does not link.
 * * Example: if the C file is main.c, the output file should be main.o
 
 ```bash
-mathieu@ubuntu:~/c/$ export CFILE=main.c
-mathieu@ubuntu:~/c/$ cat main.c
+amandine@ubuntu:~/c/$ export CFILE=main.c
+amandine@ubuntu:~/c/$ cat main.c
 
 #include <stdio.h>
 
@@ -117,15 +117,15 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/c/$ ./1-compiler 
-mathieu@ubuntu:~/c/$ ls
+amandine@ubuntu:~/c/$ ./1-compiler 
+amandine@ubuntu:~/c/$ ls
 
 0-preprocessor  1-compiler   c            main.o
 Makefile               100-intel      main.c  main.s
 
-mathieu@ubuntu:~/c/$ cat -v main.o | head
+amandine@ubuntu:~/c/$ cat -v main.o | head
 ^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^A^@>^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^P^B^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@@^@^K^@^H^@UHM-^IM-eM-8^@^@^@^@]M-C^@GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609^@^T^@^@^@^@^@^@^@^AzR^@^Ax^P^A^[^L^G^HM-^P^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^K^@^@^@^@A^N^PM-^F^BC^M^FF^L^G^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@main.c^@main^@^@^@^@ ^@^@^@^@^@^@^@^B^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@.symtab^@.strtab^@.shstrtab^@.text^@.data^@.bss^@.comment^@.note.GNU-stack^@.rela.eh_frame^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@!^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@'^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^@^@^@^A^@^@^@0^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@5^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@5^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@J^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@8^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@E^@^@^@^D^@^@^@@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M- ^A^@^@^@^@^@^@^X^@^@^@^@^@^@^@    ^@^@^@^F^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^A^@^@^@^@^@^@T^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^@^@^@^@^@^@^@M-X^@^@^@^@^@^@^@
-^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@mathieu@ubuntu:~/c/$ 
+^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@amandine@ubuntu:~/c/$ 
 ```
 
 ## 2. Assembler
@@ -136,8 +136,8 @@ Write a script that generates the assembly code of a C code and save it in an ou
 * * Example: if the C file is main.c, the output file should be main.s
 
 ```bash
-mathieu@ubuntu:~/c/$ export CFILE=main.c
-mathieu@ubuntu:~/c/$ cat main.c
+amandine@ubuntu:~/c/$ export CFILE=main.c
+amandine@ubuntu:~/c/$ cat main.c
 
 #include <stdio.h>
 
@@ -151,12 +151,12 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/c/$ ./2-assembler
-mathieu@ubuntu:~/c/$ ls
+amandine@ubuntu:~/c/$ ./2-assembler
+amandine@ubuntu:~/c/$ ls
 
 0-preprocessor  1-compiler  2-assembler c  main.c  main.s  Makefile
 
-mathieu@ubuntu:~/c/$ cat main.s
+amandine@ubuntu:~/c/$ cat main.s
     .file   "main.c"
     .text
     .globl  main
@@ -186,8 +186,8 @@ Write a script that compiles a C file and creates an executable named cisfun.
 * The C file name will be saved in the variable $CFILE
 
 ```bash
-mathieu@ubuntu:~/c/$ export CFILE=main.c
-mathieu@ubuntu:~/c/$ cat main.c
+amandine@ubuntu:~/c/$ export CFILE=main.c
+amandine@ubuntu:~/c/$ cat main.c
 
 #include <stdio.h>
 
@@ -201,9 +201,9 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/c/$ ./3-name 
+amandine@ubuntu:~/c/$ ./3-name 
 
-mathieu@ubuntu:~/c/$ ls
+amandine@ubuntu:~/c/$ ls
 0-preprocessor  1-compiler   3-name  cisfun  main.o  Makefile
 100-intel       2-assembler  c       main.c  main.s
 ```
@@ -216,10 +216,10 @@ Write a C program that prints exactly "Programming is like building a multilingu
 * Your program should end with the value 0
 
 ```bash
-mathieu@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
+amandine@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 "Programming is like building a multilingual puzzle
 
-mathieu@ubuntu:~/c/$ echo $?
+amandine@ubuntu:~/c/$ echo $?
 0
 ```
 
@@ -232,12 +232,12 @@ Write a C program that prints exactly with proper grammar, but the outcome is a 
 * Your program should compile without warning when using the -Wall gcc option
 
 ```bash
-mathieu@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
+amandine@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
 
-mathieu@ubuntu:~/c/$ ./a.out 
+amandine@ubuntu:~/c/$ ./a.out 
 with proper grammar, but the outcome is a piece of art,
 
-mathieu@ubuntu:~/c/$ echo $?
+amandine@ubuntu:~/c/$ echo $?
 0
 ```
 
@@ -250,24 +250,24 @@ Write a C program that prints the size of various types on the computer it is co
 * You might have to install the package libc6-dev-i386 on your Linux (Vagrant) to test the -m32 gcc option
 
 ```bash
-mathieu@ubuntu:~/c/$ gcc 6-size.c -m32 -o size32 2> /tmp/32
-mathieu@ubuntu:~/c/$ gcc 6-size.c -m64 -o size64 2> /tmp/64
+amandine@ubuntu:~/c/$ gcc 6-size.c -m32 -o size32 2> /tmp/32
+amandine@ubuntu:~/c/$ gcc 6-size.c -m64 -o size64 2> /tmp/64
 
-mathieu@ubuntu:~/c/$ ./size32
+amandine@ubuntu:~/c/$ ./size32
 Size of a char: 1 byte(s)
 Size of an int: 4 byte(s)
 Size of a long int: 4 byte(s)
 Size of a long long int: 8 byte(s)
 Size of a float: 4 byte(s)
 
-mathieu@ubuntu:~/c/$ ./size64
+amandine@ubuntu:~/c/$ ./size64
 Size of a char: 1 byte(s)
 Size of an int: 4 byte(s)
 Size of a long int: 8 byte(s)
 Size of a long long int: 8 byte(s)
 Size of a float: 4 byte(s)
 
-mathieu@ubuntu:~/c/$ echo $?
+amandine@ubuntu:~/c/$ echo $?
 0
 ```
 
@@ -279,8 +279,8 @@ Write a script that generates the assembly code (Intel syntax) of a C code and s
 * * Example: if the C file is main.c, the output file should be main.s
 
 ```bash
-mathieu@ubuntu:~/c/$ export CFILE=main.c
-mathieu@ubuntu:~/c/$ cat main.c
+amandine@ubuntu:~/c/$ export CFILE=main.c
+amandine@ubuntu:~/c/$ cat main.c
 
 #include <stdio.h>
 
@@ -294,8 +294,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/c/$ ./100-intel
-mathieu@ubuntu:~/c/$ cat main.s
+amandine@ubuntu:~/c/$ ./100-intel
+amandine@ubuntu:~/c/$ cat main.s
     .file   "main.c"
     .intel_syntax noprefix
     .text
@@ -328,18 +328,18 @@ Write a C program that prints exactly and that piece of art is useful" - Dora Ko
 * Your program should compile without any warnings when using the -Wall gcc option
 
 ```bash
-mathieu@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c
+amandine@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c
 
-mathieu@ubuntu:~/c/$ ./quote
+amandine@ubuntu:~/c/$ ./quote
 and that piece of art is useful" - Dora Korpar, 2015-10-19
 
-mathieu@ubuntu:~/c/$ echo $?
+amandine@ubuntu:~/c/$ echo $?
 1
 
-mathieu@ubuntu:~/c/$ ./quote 2> q
-mathieu@ubuntu:~/c/$ cat q
+amandine@ubuntu:~/c/$ ./quote 2> q
+amandine@ubuntu:~/c/$ cat q
 and that piece of art is useful" - Dora Korpar, 2015-10-19
 
-mathieu@ubuntu:~/c/$ grep printf < 101-quote.c
-mathieu@ubuntu:~/c/$ grep put < 101-quote.c
+amandine@ubuntu:~/c/$ grep printf < 101-quote.c
+amandine@ubuntu:~/c/$ grep put < 101-quote.c
 ```

@@ -77,7 +77,7 @@ If you haven’t coded all of the above functions create empty ones with the rig
 Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
 
 ```bash
-mathieu@ubuntu:~/Static Librairies$ ar -t libmy.a 
+amandine@ubuntu:~/Static Librairies$ ar -t libmy.a 
 
 0-isupper.o
 0-memset.o
@@ -100,7 +100,7 @@ mathieu@ubuntu:~/Static Librairies$ ar -t libmy.a
 9-strcpy.o
 _putchar.o
 
-mathieu@ubuntu:~/Static Librairies$ nm libmy.a 
+amandine@ubuntu:~/Static Librairies$ nm libmy.a 
 
 0-isupper.o:
 0000000000000000 T _isupper
@@ -163,7 +163,7 @@ mathieu@ubuntu:~/Static Librairies$ nm libmy.a
 _putchar.o:
 0000000000000000 T _putchar
                  U write
-mathieu@ubuntu:~/Static Librairies$ cat main.c 
+amandine@ubuntu:~/Static Librairies$ cat main.c 
 #include "main.h"
 
 int main(void)
@@ -172,8 +172,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Static Librairies$ gcc -std=gnu89 main.c -L. -lmy -o quote
-mathieu@ubuntu:~/Static Librairies$ ./quote 
+amandine@ubuntu:~/Static Librairies$ gcc -std=gnu89 main.c -L. -lmy -o quote
+amandine@ubuntu:~/Static Librairies$ ./quote 
 "At the end of the day, my goal was to be the best hacker"
     - Kevin Mitnick
 ```
@@ -183,16 +183,16 @@ mathieu@ubuntu:~/Static Librairies$ ./quote
 Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
 
 ```bash
-mathieu@ubuntu:~/Static Librairies$ ls *.c
+amandine@ubuntu:~/Static Librairies$ ls *.c
 
 0-isupper.c  0-strcat.c  1-isdigit.c  1-strncat.c  2-strlen.c   3-islower.c  3-strcmp.c  4-isalpha.c  5-strstr.c  9-strcpy.c  _putchar.c
 0-memset.c   100-atoi.c  1-memcpy.c   2-strchr.c   2-strncpy.c  3-puts.c     3-strspn.c  4-strpbrk.c  6-abs.c
 
-mathieu@ubuntu:~/Static Librairies$ ./create_static_lib.sh 
-mathieu@ubuntu:~/Static Librairies$ ls *.a
+amandine@ubuntu:~/Static Librairies$ ./create_static_lib.sh 
+amandine@ubuntu:~/Static Librairies$ ls *.a
 liball.a
 
-mathieu@ubuntu:~/Static Librairies$ ar -t liball.a
+amandine@ubuntu:~/Static Librairies$ ar -t liball.a
 0-isupper.o
 0-memset.o
 0-strcat.o

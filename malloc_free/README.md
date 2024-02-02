@@ -39,7 +39,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 * Returns a pointer to the array, or NULL if it fails
 
 ```bash
-mathieu@ubuntu:~/0x0a. malloc, free$ cat 0-main.c 
+amandine@ubuntu:~/0x0a. malloc, free$ cat 0-main.c 
 
 #include "main.h"
 #include <stdio.h>
@@ -93,8 +93,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-create_array.c -o a
-mathieu@ubuntu:~/0x0a. malloc, free$ ./a 
+amandine@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-create_array.c -o a
+amandine@ubuntu:~/0x0a. malloc, free$ ./a 
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48 0x48
@@ -118,7 +118,7 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 FYI: The standard library provides a similar function: strdup. Run man strdup to learn more.
 
 ```bash
-mathieu@ubuntu:~/0x0a. malloc, free$ cat 1-main.c
+amandine@ubuntu:~/0x0a. malloc, free$ cat 1-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -144,8 +144,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
-mathieu@ubuntu:~/0x0a. malloc, free$ ./s 
+amandine@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
+amandine@ubuntu:~/0x0a. malloc, free$ ./s 
 Duplicated
 ```
 
@@ -159,7 +159,7 @@ Write a function that concatenates two strings.
 * The function should return NULL on failure
 
 ```bash
-mathieu@ubuntu:~/0x0a. malloc, free$ cat 2-main.c
+amandine@ubuntu:~/0x0a. malloc, free$ cat 2-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -185,8 +185,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-str_concat.c -o 2-str_concat
-mathieu@ubuntu:~/0x0a. malloc, free$ ./2-str_concat | cat -e
+amandine@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-str_concat.c -o 2-str_concat
+amandine@ubuntu:~/0x0a. malloc, free$ ./2-str_concat | cat -e
 Best School$
 ```
 
@@ -199,7 +199,7 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 * If width or height is 0 or negative, return NULL
 
 ```bash
-mathieu@ubuntu:~/0x0a. malloc, free$ cat 3-main.c
+amandine@ubuntu:~/0x0a. malloc, free$ cat 3-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -254,8 +254,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-alloc_grid.c -o 3-alloc_grid
-mathieu@ubuntu:~/0x0a. malloc, free$ ./3-alloc_grid
+amandine@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-alloc_grid.c -o 3-alloc_grid
+amandine@ubuntu:~/0x0a. malloc, free$ ./3-alloc_grid
 0 0 0 0 0 0 
 0 0 0 0 0 0 
 0 0 0 0 0 0 
@@ -274,7 +274,7 @@ Write a function that frees a 2 dimensional grid previously created by your allo
 * Note that we will compile with your alloc_grid.c file. Make sure it compiles.
 
 ```bash
-mathieu@ubuntu:~/0x0a. malloc, free$ cat 4-main.c
+amandine@ubuntu:~/0x0a. malloc, free$ cat 4-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -330,8 +330,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 3-alloc_grid.c 4-free_grid.c -o 4-free_grid
-mathieu@ubuntu:~/0x0a. malloc, free$ valgrind ./4-free_grid
+amandine@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 3-alloc_grid.c 4-free_grid.c -o 4-free_grid
+amandine@ubuntu:~/0x0a. malloc, free$ valgrind ./4-free_grid
 ==5013== Memcheck, a memory error detector
 ==5013== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
 ==5013== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info

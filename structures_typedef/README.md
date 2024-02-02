@@ -68,7 +68,7 @@ Define a new type struct dog with the following elements:
 * owner, type = char *
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 0-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 0-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -89,8 +89,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
-mathieu@ubuntu:~/0x0d. structures, typedef$ ./a 
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
+amandine@ubuntu:~/0x0d. structures, typedef$ ./a 
 My name is Poppy, and I am 3.5 :) - Woof!
 ```
 
@@ -101,7 +101,7 @@ Write a function that initialize a variable of type struct dog
 Prototype: void init_dog(struct dog *d, char *name, float age, char *owner);
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 1-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 1-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -120,8 +120,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-init_dog.c -o b
-mathieu@ubuntu:~/0x0d. structures, typedef$ ./b 
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-init_dog.c -o b
+amandine@ubuntu:~/0x0d. structures, typedef$ ./b 
 My name is Poppy, and I am 3.5 :) - Woof!
 ```
 
@@ -136,7 +136,7 @@ Write a function that prints a struct dog
 * If d is NULL print nothing.
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 2-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 2-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -157,8 +157,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_dog.c -o c
-mathieu@ubuntu:~/0x0d. structures, typedef$ ./c 
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_dog.c -o c
+amandine@ubuntu:~/0x0d. structures, typedef$ ./c 
 Name: Poppy
 Age: 3.500000
 Owner: Bob
@@ -169,7 +169,7 @@ Owner: Bob
 Define a new type dog_t as a new name for the type struct dog.
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 3-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 3-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -190,8 +190,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
-mathieu@ubuntu:~/0x0d. structures, typedef$ ./d 
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+amandine@ubuntu:~/0x0d. structures, typedef$ ./d 
 My name is Poppy, and I am 3.5 :) - Woof!
 ```
 
@@ -204,7 +204,7 @@ Write a function that creates a new dog.
 * Return NULL if the function fails
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 4-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 4-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -223,8 +223,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
-mathieu@ubuntu:~/0x0d. structures, typedef$ ./e
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
+amandine@ubuntu:~/0x0d. structures, typedef$ ./e
 My name is Poppy, and I am 3.5 :) - Woof!
 ```
 
@@ -235,7 +235,7 @@ Write a function that frees dogs.
 * Prototype: void free_dog(dog_t *d);
 
 ```bash
-mathieu@ubuntu:~/0x0d. structures, typedef$ cat 5-main.c
+amandine@ubuntu:~/0x0d. structures, typedef$ cat 5-main.c
 
 #include <stdio.h>
 #include "dog.h"
@@ -255,8 +255,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-free_dog.c 4-new_dog.c -o f
-mathieu@ubuntu:~/0x0d. structures, typedef$ valgrind ./f
+amandine@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-free_dog.c 4-new_dog.c -o f
+amandine@ubuntu:~/0x0d. structures, typedef$ valgrind ./f
 ==22840== Memcheck, a memory error detector
 ==22840== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
 ==22840== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info

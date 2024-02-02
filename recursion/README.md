@@ -42,7 +42,7 @@ Write a function that prints a string, followed by a new line.
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 0-main.c
+amandine@ubuntu:~/Recursion$ cat 0-main.c
 
 #include "main.h"
 
@@ -57,8 +57,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
-mathieu@ubuntu:~/Recursion$ ./0-puts_recursion 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
+amandine@ubuntu:~/Recursion$ ./0-puts_recursion 
 Puts with recursion
 ```
 
@@ -68,7 +68,7 @@ Write a function that prints a string in reverse.
 * Prototype: void _print_rev_recursion(char *s);
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 1-main.c
+amandine@ubuntu:~/Recursion$ cat 1-main.c
 
 #include "main.h"
 
@@ -83,8 +83,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-print_rev_recursion.c -o 1-print_rev_recursion
-mathieu@ubuntu:~/Recursion$ ./1-print_rev_recursion 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-print_rev_recursion.c -o 1-print_rev_recursion
+amandine@ubuntu:~/Recursion$ ./1-print_rev_recursion 
 reklaW notloC
 ```
 
@@ -95,7 +95,7 @@ Write a function that returns the length of a string.
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 2-main.c 
+amandine@ubuntu:~/Recursion$ cat 2-main.c 
 
 #include "main.h"
 #include <stdio.h>
@@ -114,8 +114,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen_recursion.c -o 2-strlen_recursion
-mathieu@ubuntu:~/Recursion$ ./2-strlen_recursion 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen_recursion.c -o 2-strlen_recursion
+amandine@ubuntu:~/Recursion$ ./2-strlen_recursion 
 14
 ```
 
@@ -127,7 +127,7 @@ Write a function that returns the factorial of a given number.
 * Factorial of 0 is 1
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 3-main.c
+amandine@ubuntu:~/Recursion$ cat 3-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -152,8 +152,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-factorial.c -o 3-factorial
-mathieu@ubuntu:~/Recursion$ ./3-factorial 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-factorial.c -o 3-factorial
+amandine@ubuntu:~/Recursion$ ./3-factorial 
 1
 120
 3628800
@@ -168,7 +168,7 @@ Write a function that returns the value of x raised to the power of y.
 FYI: The standard library provides a different function: pow. Run man pow to learn more.
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 4-main.c
+amandine@ubuntu:~/Recursion$ cat 4-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -197,8 +197,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
-mathieu@ubuntu:~/Recursion$ ./4-pow 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
+amandine@ubuntu:~/Recursion$ ./4-pow 
 1
 1
 65536
@@ -215,7 +215,7 @@ Write a function that returns the natural square root of a number.
 FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 5-main.c 
+amandine@ubuntu:~/Recursion$ cat 5-main.c 
 
 #include "main.h"
 #include <stdio.h>
@@ -244,8 +244,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-sqrt_recursion.c -o 5-sqrt
-mathieu@ubuntu:~/Recursion$ ./5-sqrt 
+amandine@ubuntu:~/gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-sqrt_recursion.c -o 5-sqrt
+amandine@ubuntu:~/Recursion$ ./5-sqrt 
 1
 32
 4
@@ -260,7 +260,7 @@ Write a function that returns 1 if the input integer is a prime number, otherwis
 * Prototype: int is_prime_number(int n);
 
 ```bash
-mathieu@ubuntu:~/Recursion$ cat 6-main.c
+amandine@ubuntu:~/Recursion$ cat 6-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -293,8 +293,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-is_prime_number.c -o 6-prime
-mathieu@ubuntu:~/Recursion$ ./6-prime 
+amandine@ubuntu:~/Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-is_prime_number.c -o 6-prime
+amandine@ubuntu:~/Recursion$ ./6-prime 
 0
 0
 0

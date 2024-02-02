@@ -50,7 +50,7 @@ Write a function that checks for uppercase character.
 FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 0-main.c
+amandine@ubuntu:~/$ cat 0-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -71,8 +71,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-isupper.c -o 0-isuper
-mathieu@ubuntu:~/$ ./0-isuper 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-isupper.c -o 0-isuper
+amandine@ubuntu:~/$ ./0-isuper 
 A: 1
 a: 0
 ```
@@ -86,7 +86,7 @@ Write a function that checks for a digit (0 through 9).
 FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
 
 ```bash
-mathieu@ubuntu:~/$ cat 1-main.c
+amandine@ubuntu:~/$ cat 1-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -107,8 +107,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-isdigit.c -o 1-isdigit
-mathieu@ubuntu:~/$ ./1-isdigit 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-isdigit.c -o 1-isdigit
+amandine@ubuntu:~/$ ./1-isdigit 
 0: 1
 a: 0
 ```
@@ -119,7 +119,7 @@ Write a function that multiplies two integers.
 * Prototype: int mul(int a, int b);
 
 ```bash
-mathieu@ubuntu:~/$ cat 2-main.c
+amandine@ubuntu:~/$ cat 2-main.c
 
 #include "main.h"
 #include <stdio.h>
@@ -136,8 +136,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
-mathieu@ubuntu:~/$ ./2-mul 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
+amandine@ubuntu:~/$ ./2-mul 
 100352
 -1646592
 ```
@@ -149,7 +149,7 @@ Write a function that prints the numbers, from 0 to 9, followed by a new line.
 * You can only use _putchar twice in your code
 
 ```bash
-mathieu@ubuntu:~/$ cat 3-main.c 
+amandine@ubuntu:~/$ cat 3-main.c 
   
 #include "main.h"
 
@@ -164,8 +164,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-print_numbers.c -o 3-print_numbers
-mathieu@ubuntu:~/$ ./3-print_numbers | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-print_numbers.c -o 3-print_numbers
+amandine@ubuntu:~/$ ./3-print_numbers | cat -e
 0123456789$
 ```
 
@@ -177,7 +177,7 @@ Write a function that prints the numbers, from 0 to 9, followed by a new line.
 * You can only use _putchar twice in your code
 
 ```bash
-mathieu@ubuntu:~/$ cat 4-main.c
+amandine@ubuntu:~/$ cat 4-main.c
   
 #include "main.h"
 
@@ -192,8 +192,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_most_numbers.c -o 4-print_most_numbers
-mathieu@ubuntu:~/$ ./4-print_most_numbers 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_most_numbers.c -o 4-print_most_numbers
+amandine@ubuntu:~/$ ./4-print_most_numbers 
 01356789
 ```
 
@@ -204,7 +204,7 @@ Write a function that prints 10 times the numbers, from 0 to 14, followed by a n
 * You can only use _putchar three times in your code
 
 ```bash
-mathieu@ubuntu:~/$ cat 5-main.c
+amandine@ubuntu:~/$ cat 5-main.c
   
 #include "main.h"
 
@@ -219,8 +219,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-more_numbers.c -o 5-more_numbers
-mathieu@ubuntu:~/$ ./5-more_numbers 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-more_numbers.c -o 5-more_numbers
+amandine@ubuntu:~/$ ./5-more_numbers 
 01234567891011121314
 01234567891011121314
 01234567891011121314
@@ -243,7 +243,7 @@ Write a function that draws a straight line in the terminal.
 * If n is 0 or less, the function should only print \n
 
 ```bash
-mathieu@ubuntu:~/$ cat 6-main.c
+amandine@ubuntu:~/$ cat 6-main.c
   
 #include "main.h"
 
@@ -261,8 +261,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
-mathieu@ubuntu:~/$ ./6-lines | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
+amandine@ubuntu:~/$ ./6-lines | cat -e
 $
 __$
 __________$
@@ -280,7 +280,7 @@ Write a function that draws a diagonal line on the terminal.
 * If n is 0 or less, the function should only print a \n
 
 ```bash
-mathieu@ubuntu:~/$ cat 7-main.c
+amandine@ubuntu:~/$ cat 7-main.c
   
 #include "main.h"
 
@@ -298,8 +298,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_diagonal.c -o 7-diagonals
-mathieu@ubuntu:~/$ ./7-diagonals | cat -e
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_diagonal.c -o 7-diagonals
+amandine@ubuntu:~/$ ./7-diagonals | cat -e
 $
 \$
  \$
@@ -326,7 +326,7 @@ Write a function that prints a square, followed by a new line.
 * Use the character # to print the square
 
 ```bash
-mathieu@ubuntu:~/$ cat 8-main.c 
+amandine@ubuntu:~/$ cat 8-main.c 
   
 #include "main.h"
 
@@ -343,8 +343,8 @@ int main(void)
     return (0);
 }
 
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-print_square.c -o 8-squares
-mathieu@ubuntu:~/$ ./8-squares 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-print_square.c -o 8-squares
+amandine@ubuntu:~/$ ./8-squares 
 ##
 ##
 ##########
@@ -358,7 +358,7 @@ mathieu@ubuntu:~/$ ./8-squares
 ##########
 ##########
 
-mathieu@ubuntu:~/$ 
+amandine@ubuntu:~/$ 
 ```
 
 ### 9. Fizz-Buzz
@@ -370,8 +370,8 @@ Write a program that prints the numbers from 1 to 100, followed by a new line. B
 * You are allowed to use the standard library
 
 ```bash
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-fizz_buzz.c -o 9-fizz_buzz
-mathieu@ubuntu:~/$ ./9-fizz_buzz 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-fizz_buzz.c -o 9-fizz_buzz
+amandine@ubuntu:~/$ ./9-fizz_buzz 
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
 ```
 
@@ -385,7 +385,7 @@ Write a function that prints a triangle, followed by a new line.
 * Use the character # to print the triangle
 
 ```bash
-mathieu@ubuntu:~/$ cat 10-main.c 
+amandine@ubuntu:~/$ cat 10-main.c 
   
 #include "main.h"
 
@@ -403,8 +403,8 @@ int main(void)
     return (0);
 }
   
-mathieu@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-print_triangle.c -o 10-triangles
-mathieu@ubuntu:~/$ ./10-triangles 
+amandine@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-print_triangle.c -o 10-triangles
+amandine@ubuntu:~/$ ./10-triangles 
  #
 ##
          #
@@ -419,7 +419,7 @@ mathieu@ubuntu:~/$ ./10-triangles
 ##########
 #
 
-mathieu@ubuntu:~/$ ./10-triangles | tr ' ' . | cat -e
+amandine@ubuntu:~/$ ./10-triangles | tr ' ' . | cat -e
 .#$
 ##$
 .........#$
