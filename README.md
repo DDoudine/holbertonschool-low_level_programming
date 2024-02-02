@@ -3,7 +3,7 @@
 ----------
 
 <p align="center">
-    <img [C] src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.tuto.com%2Flangage-c%2Fapprendre-la-programmation-avec-le-langage-c%2C132681.html&psig=AOvVaw0Tm_L0iRWT1kEqNVgsPIJo&ust=1706972015836000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCrk770jIQDFQAAAAAdAAAAABAD">
+    <img [C] src="https://trustmyscience.com/wp-content/uploads/2020/01/langage-c-popularite.jpg">
 </p>
 
 ----------
