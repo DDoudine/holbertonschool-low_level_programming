@@ -68,13 +68,13 @@ Write a program that prints its name, followed by a new line.
 *You should not remove the path before the name of the program
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-whatsmyname.c -o mynameis
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-whatsmyname.c -o mynameis
 
-mathieu@ubuntu:~/argc, argv$ ./mynameis 
+amandine@ubuntu:~/argc, argv$ ./mynameis 
 ./mynameis
 
-mathieu@ubuntu:~/argc, argv$ mv mynameis mynewnameis
-mathieu@ubuntu:~/argc, argv$ ./mynewnameis 
+amandine@ubuntu:~/argc, argv$ mv mynameis mynewnameis
+amandine@ubuntu:~/argc, argv$ ./mynewnameis 
 ./mynewnameis
 ```
 
@@ -84,19 +84,19 @@ Write a program that prints the number of arguments passed into it.
 * Your program should print a number, followed by a new line
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89
 1-args.c -o nargs
 
-mathieu@ubuntu:~/argc, argv$ ./nargs 
+amandine@ubuntu:~/argc, argv$ ./nargs 
 0
 
-mathieu@ubuntu:~/argc, argv$ ./nargs hello
+amandine@ubuntu:~/argc, argv$ ./nargs hello
 1
 
-mathieu@ubuntu:~/argc, argv$ ./nargs "hello, world"
+amandine@ubuntu:~/argc, argv$ ./nargs "hello, world"
 1
 
-mathieu@ubuntu:~/argc, argv$ ./nargs hello, world
+amandine@ubuntu:~/argc, argv$ ./nargs hello, world
 2
 ```
 
@@ -107,12 +107,12 @@ Write a program that prints all arguments it receives.
 * Only print one argument per line, ending with a new line
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-args.c -o args
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-args.c -o args
 
-mathieu@ubuntu:~/argc, argv$ ./args 
+amandine@ubuntu:~/argc, argv$ ./args 
 ./args
 
-mathieu@ubuntu:~/argc, argv$ ./args You can do anything, but not everything.
+amandine@ubuntu:~/argc, argv$ ./args You can do anything, but not everything.
 ./args
 You
 can
@@ -131,20 +131,20 @@ Write a program that multiplies two numbers.
 * If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
-mathieu@ubuntu:~/argc, argv$ ./mul 2 3
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
+amandine@ubuntu:~/argc, argv$ ./mul 2 3
 6
 
-mathieu@ubuntu:~/argc, argv$ ./mul 2 -3
+amandine@ubuntu:~/argc, argv$ ./mul 2 -3
 -6
 
-mathieu@ubuntu:~/argc, argv$ ./mul 2 0
+amandine@ubuntu:~/argc, argv$ ./mul 2 0
 0
 
-mathieu@ubuntu:~/argc, argv$ ./mul 245 3245342
+amandine@ubuntu:~/argc, argv$ ./mul 245 3245342
 795108790
 
-mathieu@ubuntu:~/argc, argv$ ./mul
+amandine@ubuntu:~/argc, argv$ ./mul
 Error
 ```
 
@@ -157,17 +157,17 @@ Write a program that adds positive numbers.
 * You can assume that numbers and the addition of all the numbers can be stored in an int
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-add.c -o add
-mathieu@ubuntu:~/argc, argv$ ./add 1 1
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-add.c -o add
+amandine@ubuntu:~/argc, argv$ ./add 1 1
 2
 
-mathieu@ubuntu:~/argc, argv$ ./add 1 10 100 1000
+amandine@ubuntu:~/argc, argv$ ./add 1 10 100 1000
 1111
 
-mathieu@ubuntu:~/argc, argv$ ./add 1 2 3 e 4 5
+amandine@ubuntu:~/argc, argv$ ./add 1 2 3 e 4 5
 Error
 
-mathieu@ubuntu:~/argc, argv$ ./add
+amandine@ubuntu:~/argc, argv$ ./add
 0
 ```
 
@@ -182,19 +182,19 @@ Write a program that prints the minimum number of coins to make change for an am
 * You can use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent
 
 ```bash
-mathieu@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-change.c -o change
-mathieu@ubuntu:~/argc, argv$ ./change 
+amandine@ubuntu:~/argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-change.c -o change
+amandine@ubuntu:~/argc, argv$ ./change 
 Error
 
-mathieu@ubuntu:~/argc, argv$ ./change 10
+amandine@ubuntu:~/argc, argv$ ./change 10
 1
 
-mathieu@ubuntu:~/argc, argv$ ./change 100
+amandine@ubuntu:~/argc, argv$ ./change 100
 4
 
-mathieu@ubuntu:~/argc, argv$ ./change 101
+amandine@ubuntu:~/argc, argv$ ./change 101
 5
 
-mathieu@ubuntu:~/argc, argv$ ./change 13
+amandine@ubuntu:~/argc, argv$ ./change 13
 3
 ```
